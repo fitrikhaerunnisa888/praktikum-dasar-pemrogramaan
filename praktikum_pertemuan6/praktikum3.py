@@ -1,0 +1,18 @@
+daftar_matkul = ["Algoritma", "Tipe Data"]
+
+# Menambahkan Basis Data di akhir
+daftar_matkul.append("Basis Data")
+print(daftar_matkul)
+
+# Menyisipkan Pemrograman pada indeks 1
+daftar_matkul.insert(1, "Pemrograman")
+print(daftar_matkul)
+
+# Menghapus elemen pada indeks 0
+del daftar_matkul[0]
+print(daftar_matkul)
+
+# Menghapus elemen terakhir menggunakan pop()
+terhapus = daftar_matkul.pop()
+print("Terhapus:", terhapus)
+print(daftar_matkul)
